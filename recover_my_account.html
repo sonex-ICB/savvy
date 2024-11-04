@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/b5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/animations.css">
+
+    <style>
+     
+     .form_container{
+            max-width: 90%;
+            width: 400px;
+            background-color: var(--primary);
+            box-shadow: 0 0 13px 1px #808080;
+            border-radius: 10px;
+            color:var(--secondary);
+            text-align: center;
+   
+            overflow: hidden;
+        }
+        .top{
+            display:flex;
+            justify-content: space-between;
+        }
+        .top h5{
+            background-color: var(--primary);
+            width: 47%;
+            padding: 10px;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+        h5 a{
+            color: var(--dark);
+        }
+        .top h5:first-child{
+            border-radius: 0 50px 50px 0;
+            color: var(--primary);
+            background-color: var(--dark);
+        }
+        .top h5:first-child a{
+            color:var(--primary);
+        }
+        .form_container form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: var(--dark);
+            padding: 20px ;
+            margin-top: 50px;
+            color: var(--dark);
+            border-radius: 50px 50px 0 0;
+            width: 100%;
+        }
+        .form_container form input,.form_container button{
+            width: 80%;
+            padding: 12px;
+            margin: 10px auto;
+            border-radius: 10px;
+            background-color: var(--primary);
+            color: var(--secondary);
+            border:0;
+            outline:0;
+            font-weight: 700;
+            text-align: center;
+        }
+        .form_container input::placeholder{
+            color: var(--secondary);
+        }
+        .form_container form button{
+            text-align: center;
+            background-color: var(--white);
+            color: var(--dark);
+            transition:.3s;
+            &:hover{
+                color: var(--dark);
+                box-shadow:0 0 4px 1px var(--dark) inset;
+                background:var(--primary);
+            }
+        }
+       
+        .form_container h4{
+            margin-bottom: 5px;
+            font-size: 15px;
+            text-transform: uppercase;
+            color: var(--primary);
+        }
+        body{
+            background-color: var(--white)!important;
+        }
+    </style>
+</head>
+<body>
+
+
+    <section class="form_container">
+        <div class="top">
+            <h5> <a href="signin.html"> sign in</a></h5> 
+            <h5> <a href="new_account.html"> sign up</a></h5> 
+
+       </div>
+        <form action="">
+            <h4> recover my password </h4>
+            <input type="text" name="" id="" placeholder="User ID">
+            <button type="button"> GET LINK </button>
+        </form>
+    </section>
+    
+</body>
+</html>

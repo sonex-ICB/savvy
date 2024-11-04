@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/b5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/animations.css">
+
+    <style>
+                
+                .form_container{
+                width: 400px;
+                max-width:95%;
+                background-color: var(--primary);
+                box-shadow: 0 0 33px 1px var(--dark);
+                border-radius: 10px;
+                color:var(--secondary);
+                text-align: center;
+                padding-top:0px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+                border:3px solid #0001;
+            }
+            .form_container form{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                background-color: var(--dark);
+                padding: 20px ;
+                margin-top: 20px;
+                color: var(--dark);
+                border-radius: 50px 50px 0 0;
+                width: 100%;
+            }
+            .form_container form input, .form_container button{
+                width: 100%;
+                padding: 12px;
+                margin: 10px auto;
+                border-radius: 10px;
+                background-color: var(--primary);
+                color: var(--light);
+                border:0;
+                outline:0;
+                font-weight: 700;
+                text-align: center;
+            }
+            input::placeholder{
+                color: var(--light);
+            }
+            .form_container form button{
+                    text-align: center;
+                    background-color: var(--primary);
+                    color: var(--dark);
+                    transition:.3s;
+                    &:hover{
+                        color: var(--dark);
+                        box-shadow:0 0 4px 1px var(--dark) inset;
+                        background:var(--primary);
+                    }
+                }
+            h4{
+                margin-bottom: 40px;
+                font-size: 25px;
+                text-transform: uppercase;
+                color:var(--primary)
+            }
+            h5{
+                font-size: 20px;
+                color: var(--dark);
+                width:100%;
+                
+            }
+            .form_container h5 button{
+                text-transform: uppercase;
+                font-size:2rem;
+                background:transparent;
+                color:var(--dark);
+                font-weight:700;
+            }
+ 
+</style>
+</head>
+<body>
+
+
+    <section class="form_container">
+       <a href="new_account.html">  <h5>SIGN UP</h5> </a>
+        <form action="">
+            <h4> ..:::: sign in ::::.. </h4>
+            <input type="text" name="" id="" placeholder="User ID">
+            <input type="text" name="" id="" placeholder="login Token">
+            <button > <a href="my_account.html"> login</a> </button>
+            <p>
+                <a href="recover_my_account.html" style="color: var(--primary);"> <i> Forgot password </i></a>
+            </p>
+        </form>
+    </section>
+    
+</body>
+</html>

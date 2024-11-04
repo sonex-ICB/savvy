@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/b5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/my_account.css">
+    <link rel="stylesheet" href="css/account_settings.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <div class="overlay"></div>
+    <header class="d-flex justify-content-between align-items-center px-4 py-5">
+       <section class="d-flex flex-row align-items-center">
+            <div class="avatar mx-4">
+                <i class="fa fa-user fs-4" aria-hidden="true"></i>
+            </div>
+            <div>
+                <h6>
+                    <i class="fa fa-award" aria-hidden="true"></i> 
+                    savvy - Pulse +</h6>
+                <h5> solomon sonex </h5>
+            </div>
+       </section>
+        <div class="bell">
+           <button class="btn btn-outline-dark" type="button" >  <i class="fa fa-bell" aria-hidden="true"></i><sup class="">12</sup> </button>
+        </div>
+    </header>
+    <main class="">
+        
+        <nav class="shadow border p-3">
+                <a href="my_info.html"> <button class="btn border btn-lg text-light"> <i class="fa fa-user" aria-hidden="true"></i> </button>  My Info </a>
+                <a href="plans.html"> <button class="btn border btn-lg text-light"> <i class="fa fa-user" aria-hidden="true"></i> </button>  View Plans</a>
+                <a href="bonus.html"> <button class="btn border btn-lg text-light"> <i class="fa fa-briefcase" aria-hidden="true"></i> </button> Bonuses and Earnings  </a>
+                <a href="change_plan.html"> <button class="btn border btn-lg text-light"> <i class="fa fa-exchange" aria-hidden="true"></i>  </button> Change Plan</a>
+                <a href="emergency_w.html"> <button class="btn border btn-lg text-light"> <i class="fa fa-diamond" aria-hidden="true"></i> </button> Emergency Funds</a>
+                <a href="my_referals.html"> <button class="btn border btn-lg text-light"> <i class="fa fa-handshake" aria-hidden="true"></i> </button> My Referals </a>
+                <a href="notifications.html"> <button class="btn border btn-lg text-light"> <i class="fa fa-database" aria-hidden="true"></i> </button> Transactions</a>
+                <a href="track_my_savings.html"> <button class="btn border btn-lg text-light"> <i class="fa fa-pie-chart" aria-hidden="true"></i> </button> Savings Tracker</a>
+                <a href="my_accomplishments.html"> <button class="btn border btn-lg text-light"> <i class="fa fa-award" aria-hidden="true"></i>  </button> Accomplishments</a>
+                <a href="privacy_stmt.html"> <button class="btn border btn-lg text-light"> <i class="fa fa-mars" aria-hidden="true"></i> </button> privacy</a>
+                <a href="account_security.html"> <button class="btn border btn-lg text-light"> <i class="fa fa-lock" aria-hidden="true"></i> </button> Security</a>
+                <a href="help_faqs.html"> <button class="btn border btn-lg text-light"> <i class="fa fa-question" aria-hidden="true"></i> </button> Help</a>
+        </nav>
+        
+       
+        <footer>
+            <section class="footer_actions d-flex flex-row">
+                <button type="button"> <a href="my_account.html"> <i class="fs-3 fa fa-home" aria-hidden="true"></i> </a> </button>
+                <button type="button"> <a href="new_account.html"> <i class="fs-3 fa fa-database" aria-hidden="true"></i> </a> </button>
+                <button type="button"> <a href="my_info.html"> <i class="fs-3 fa fa-user-circle" aria-hidden="true"></i> </a> </button>
+                <button type="button"> <a href="account_settings.html"> <i class="fs-3 fa-solid fa-bars" aria-hidden="true"></i> </a> </button>
+            </section>
+        </footer>
+    </main>
+</body>
+</html>
+<script src="js/jquery.js"></script>
+<script src="js/main.js"></script>
+<link rel="stylesheet" href="css/fontawesome/fontawesome-free-6.1.2-web/css/all.css">
+<script>
+    $(document).ready(()=>{
+        $('.bell button').click(()=>{
+            forms.get_form('notifications')
+        })
+        // w
+        $('#w').click(()=>{
+            text = `<div class="spinner-grow .spinner-grow-sm"></div><h5> <i> Please Wait </i> </h5>`
+            $('.overlay').show().html(text)
+            location.href='w.html'
+            $('.overlay').hide().html('')
+        })
+    })
+</script>

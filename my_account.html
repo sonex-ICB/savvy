@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/b5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/my_account.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <div class="overlay"></div>
+    <header class="d-flex justify-content-between align-items-center px-4 py-5">
+       <section class="d-flex flex-row align-items-center">
+            <div class="avatar mx-4">
+                <i class="fa fa-user fs-4" aria-hidden="true"></i>
+            </div>
+            <div>
+                <h6>
+                    <i class="fa fa-award" aria-hidden="true"></i> 
+                    savvy - Pulse +</h6>
+                <h5> solomon sonex </h5>
+            </div>
+       </section>
+        <div class="bell">
+           <button class="btn btn-outline-dark" type="button" >  <i class="fa fa-bell" aria-hidden="true"></i><sup class="">12</sup> </button>
+        </div>
+    </header>
+    <main class="">
+        <section class="container px-5 py-4">
+            <section class="action-center rounded-4 d-flex flex-row justify-content-between"> 
+                <div>
+                    <h6> <strong> 8074810078 </strong></h6>
+                    <div class="border-top border-bottom my-2"> 
+                        <h6> <strong> N10,0987 </strong></h6>
+                        <h6> widthdraw Date : 12/12/2024</h6>
+                         <!-- savings progress  -->
+                        <section class="">
+                            <h6> Track My Savings </h6>
+                            <div class="progress" style="background: var(--dark);">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" style="width: 69%;" > 69%</div>
+                            </div>
+                    </section>
+                    </div>
+                </div>
+                <div class="d-flex flex-column">
+                    <button type="button" class="rounded-4" id="w"> widthdraw</button>
+                    <hr>
+                    <button type="button" class="rounded-4" id="d"> Deposite</button>
+                </div>
+            </section>
+
+            <section class="transactions my-4 p-0">
+                <section class="alert alert-warning">
+                    <p class='m-0 p-0'> <b> Date : Today</b></p>
+                    <p class="lead m-0 p-0"> 
+                        Account Credit was successful!
+                        <a href="notifications.html" class="btn btn-dark rounded rounded-5 px-4"> View All </a>
+                    </p>
+                </section>
+
+                <section class="more_notices rounded border-4 shadow p-3"></section>
+            </section>
+        </section>
+        
+        <!--  -->
+
+        <section class="d-sm-flex  flex-row bg-white p-3 container  rounded-4 shadow slide_l" style="margin-bottom: 200px;" >
+            <section class="e-card-holder shadow p-2 rounded-4"> 
+                <div class="e-card">
+                    <div class="top d-flex flex-row justify-content-between align-items-center px-4">
+                        <h6 class='text-dark'> <span> savvy e-Pay</span></h6>
+                        <h5 class=''> <span class="badge bg-dark p-3">  Pulse + </span> </h5>
+                    </div>
+                    <div class="mid py-5 text-end d-flex flex-row align-items-center justify-content-between">
+                        <div class="circle"></div>
+                        <div>
+                            <h5> <strong style="color: var(--white);"> 4567 7854 6243 8563 </strong></h5>
+                            <h5> 12/2027</h5>
+                            <h5 class="ccv text-center"> <span class="badge bg-dark"> 098</span> </h5>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <h6> solomon sonex</h6>
+                    </div>
+                </div>
+            </section>
+            <!-- plans  -->
+             <section class="plans rounded-4 p-3 m-3 shadow border">
+                        <h6 class="p-3 h3"> <span class="badge bg-dark"> Pulse</span> </h6>
+                        <hr>
+                        <div class="container pulse d-sm-flex flex-row">
+                            <div class="plan-card shadow">
+                                <button type="button"> Pulse </button>
+                                <p class="leaded">
+                                    <strong> MIN. AMT : </strong> <span> N500</span>
+                                    <strong> DURA: </strong> <span> 1 Month</span>
+                                </p>
+                            </div>
+                            <div class="plan-card shadow">
+                                <button type="button"> Pulse + </button>
+                                <p class="leaded">
+                                    <strong> MIN. AMT : </strong> <span> N500</span>
+                                    <strong> DURA: </strong> <span> 2 Months </span>
+                                </p>
+                            </div>
+                            <div class="plan-card shadow">
+                                <button type="button"> Pulse Max  </button>
+                                <p class="leaded">
+                                    <strong> MIN. AMT : </strong> <span> N1000</span>
+                                    <strong> DURA: </strong> <span> 2 Months </span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                        <a class="btn btn-dark rounded rounded-5 px-4" href="plans.html"> More Plans <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> </a>
+                        </div>
+             </section>
+        </section>
+       
+        <footer>
+            <section class="footer_actions d-flex flex-row">
+                <button type="button"> <a href="my_account.html"> <i class="fs-3 fa fa-home" aria-hidden="true"></i> </a> </button>
+                <button type="button"> <a href="new_account.html"> <i class="fs-3 fa fa-database" aria-hidden="true"></i> </a> </button>
+                <button type="button"> <a href="my_info.html"> <i class="fs-3 fa fa-user-circle" aria-hidden="true"></i> </a> </button>
+                <button type="button"> <a href="account_settings.html"> <i class="fs-3 fa-solid fa-bars" aria-hidden="true"></i> </a> </button>
+            </section>
+        </footer>
+    </main>
+</body>
+</html>
+<script src="js/jquery.js"></script>
+<script src="js/main.js"></script>
+<link rel="stylesheet" href="css/fontawesome/fontawesome-free-6.1.2-web/css/all.css">
+<script>
+    $(document).ready(()=>{
+        $('.bell button').click(()=>{
+            forms.get_form('notifications')
+        })
+        // w
+        $('#w').click(()=>{
+            text = `<div class="spinner-grow .spinner-grow-sm"></div><h5> <i> Please Wait </i> </h5>`
+            $('.overlay').show().html(text)
+            location.href='w.html'
+            $('.overlay').hide().html('')
+        })
+    })
+</script>

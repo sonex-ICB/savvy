@@ -1,0 +1,152 @@
+name = savy
+tagline = smart savings made easy
+
+about: 
+    Saving shouldnt be a problem, having a savingd box is good but a samrt and digital savings box is better 
+    create a wallet account with savvy that allows for targeted savings ranging from small goals and and short duration to long term goals 
+    with longer duration 
+    With savvy saving is fun pick a goal and starts saving, you dont have access to your funds until the duration is over helping you meet up your goals no matter what 
+    Having a track of your savings and progress status towards achieving your goals can also be a good idea. 
+
+    competition can make people do better, where there's competition people yearn to do better, we provide you data about other users and their savings progress 
+    to help you do better.  
+
+    Emergencies can arise and Savvy is willing to help, you have access to 40% of you savings after the first 1/2 of your savings plan, 
+    this enables you tackle your emergencies while retaning a reasonable savnings balance 
+
+    Rent, school fees, land acquisition, car ownership, business start up shouldnt be so difficult especially with the right savings plan, 
+    why not start today and and celebrate your acheivements tomorrow
+
+    Saving is comppletely seamless, free and secured, from a list of savings options ranging from card payment, bank deposit, very secured and easy to
+    use. 
+     
+    Widthraw is not completely free, Savvy reserves a small amount of N100 called maintenance charges which is basically used to maintain your e-card 
+    for Widthraws. The maintainence fee is only charged upon Widthrawals, and N150 for emergency Widthrawals.
+
+    users can also earn by referals and interest, a referal bonus of N200 and daily interest of 0.01% of your savings,
+    interest earning is only applicable to users not on pulse savings.
+    
+    
+    Savings plans 
+    1. Pulse  - N500+  1 month
+    2. pulse Plus N500 + 2 Month+
+    3. Pulse Max  - N1000 2 Moths+
+
+    3. savvy - N2000+ 2months
+    4. savvy Max  - N3000 3 Months 
+    5. savvy Boss - N3000 6 Months
+
+    6. Flex N3000 9 Months
+    7. Flex Smart N5000 9 Months
+    8. Flex plus N5000 12 Months 
+    9. Flex  N10000 12 Months 
+    10. Flex Boss  - N50K 12 10 Months 
+    
+    
+    other benefits
+    1. Access to financial education via meetings, videos 
+    2. little awards and insentives 
+    3. Share progress with others 
+
+
+
+    Design structure 
+    1. Front End - HTML, CSS, B5, JS-Jquery, (PHP)
+
+    2. PHP,SQL,(mysql server), (py)
+
+
+    Requirements: 
+        1. User Data
+            - Full Name 
+            - Email
+            - Phone Number
+            - NIN/BVN 
+            - Bank Account 
+            - Next of Kin (Back/contact info)
+            - Conscent on use data use and privacy policy
+            - Geo location 
+        2. Web payment gateway
+        3. Accounts 
+        4. Roles - 
+            - Users 
+            - Plan Managers 
+            - Operational Managers - (all plans)
+            - Principals
+        5. plans - 
+            1. pulse 
+            2. Savvy 
+            3. flex 
+
+            {user}
+        
+    
+
+    Site Map :
+        index: Home page basically about savvy and getting started
+        Accounts  - login to savvy as savvy member
+                    simple login process by password phone number or email, 
+                    you can also activate login by token which requires 
+                    that you must be with your resgistered phone or email 
+                    before login with token, also you can activate 2-step verification
+
+                    Create account - new members
+                    register by just adding your email and phone number 
+                    and referal code if any
+                    complete the registration later on dashboard
+        About:      just about savvy and her services, plans, videos and testimonies
+                    by successful savvy memebers 
+        Mobile Contact info:
+        user dashboard : Beautiful and very simple to use
+                        - Account Settings - all adjustable user data displayed and can be changed
+                        - Account balance **
+                        - Current Savings plan and due date **
+                        - Savings tracker **
+                        - Competitive trackler 
+                        - Awards and Bonus 
+                        - Share my progress 
+                        - transactions 
+                        - Change savings plan  
+                        - Widthraw **
+                        - deposit **
+                        - referal link 
+                        - Sent complaints Mail or Whatsapp  
+                        - Request for emergency funds **
+                        - e-card  **
+                        - Update next of kin 
+                        - Accomplishments (successful savings made ) 
+                        - privacy
+                    Home:  - 
+                            Account balance
+                            Account Settings - 
+                            current Plan and due date 
+                            savings tracker 
+                            awards and bonus 
+                            transactions 
+                            Widthraw
+                            deposit
+                    
+                    bottom nav  Home :
+                            Home 
+                            Transactions 
+                            account
+                            more 
+
+
+
+
+
+
+
+
+    Next:
+    1. Research existings savings systems and sort for improvement
+    2. Seek partnerships and better ways to retain customers 
+    3. Always think security
+    4. Hire more hands, get an office and customer care assistant
+    5. Automtate reminders for savings 
+    6. Offer specific budgetting for specific needs 
+    7. Savings and progress tracker 
+    8. Mobile App
+    10. Whatsapp handle for flexible complaints and customer service
+    11. Active email - replies in 30 mins 

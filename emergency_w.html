@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/b5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/my_account.css">
+    <link rel="stylesheet" href="css/account_settings.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <div class="overlay"></div>
+    <header class="d-flex justify-content-between align-items-center px-4 py-5">
+       <section class="d-flex flex-row align-items-center">
+            <div class="avatar mx-4">
+                <i class="fa fa-user fs-4" aria-hidden="true"></i>
+            </div>
+            <div>
+                <h6>
+                    <i class="fa fa-award" aria-hidden="true"></i> 
+                    savvy - Pulse +</h6>
+                <h5> solomon sonex </h5>
+            </div>
+       </section>
+        <div class="bell">
+           <button class="btn btn-outline-dark" type="button" >  <i class="fa fa-bell" aria-hidden="true"></i><sup class="">12</sup> </button>
+        </div>
+    </header>
+    <main class="">
+        <div class="more_notices"></div>
+        
+        <section  class="shadow border my_info">
+            <div class="bg-dark p-2">
+                <a href="account_settings.html" class="text-warning"> <i class="fa fa-arrow-circle-left display-6" aria-hidden="true"></i> </a>
+            </div>
+            <div class="p-3 text-center">
+                <h1> <i class="fa fa-warning display-6" aria-hidden="true"></i></h1>
+                <p class="lead">Sorry! You are not eligible for Emergency Withdraw</p>
+                <h1> <i> Try again later!  </i> </h1>
+            </div>
+        </section >
+        
+       
+        <footer>
+            <section class="footer_actions d-flex flex-row">
+                <button type="button"> <a href="my_account.html"> <i class="fs-3 fa fa-home" aria-hidden="true"></i> </a> </button>
+                <button type="button"> <a href="new_account.html"> <i class="fs-3 fa fa-database" aria-hidden="true"></i> </a> </button>
+                <button type="button"> <a href="my_info.html"> <i class="fs-3 fa fa-user-circle" aria-hidden="true"></i> </a> </button>
+                <button type="button"> <a href="account_settings.html"> <i class="fs-3 fa-solid fa-bars" aria-hidden="true"></i> </a> </button>
+            </section>
+        </footer>
+    </main>
+</body>
+</html>
+<script src="js/jquery.js"></script>
+<script src="js/main.js"></script>
+<link rel="stylesheet" href="css/fontawesome/fontawesome-free-6.1.2-web/css/all.css">
+<script>
+    $(document).ready(()=>{
+        $('.bell button').click(()=>{
+            forms.get_form('notifications')
+        })
+        
+    })
+</script>
